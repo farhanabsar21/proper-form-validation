@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation | Vanilla Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="form">
+            <h2>Register With Us</h2>
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="enter username">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="enter email">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Create password</label>
+                <input type="password" id="password" placeholder="enter password">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="passwordRpt">Repeat password</label>
+                <input type="password" id="passwordRpt" placeholder="enter password">
+                <small>Error message</small>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
